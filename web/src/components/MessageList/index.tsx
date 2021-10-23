@@ -15,7 +15,7 @@ type Message = {
 
 const messagesQueue: Message[] = [];
 
-const socket = io('http://54.207.131.210:4400');
+const socket = io('http://18.231.87.184:4400');
 
 
 socket.on('new_message', (newMessage: Message) => {
